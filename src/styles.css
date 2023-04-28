@@ -1,0 +1,267 @@
+body {
+  position: center;
+  object-fit: cover;
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*Menù*/
+.navegacion {
+  width: 80%;
+  margin: 30px auto;
+  background: black;
+  text-align: center;
+}
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.menu li a:hover {
+  color: white;
+  transition: all 1s;
+}
+
+.submenu {
+  position: absolute;
+  background: rgb(22, 22, 22);
+  width: 140%;
+  visibility: hidden;
+  opacity: 100;
+  transition: opacity 0.5s;
+}
+.submenu li a {
+  visibility: fixed;
+  display: block;
+  padding: 15px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.a {
+  display: block;
+  padding: 15px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  z-index: 1;
+  text-align: center;
+}
+.a:hover {
+  color: white;
+  transition: all 1s;
+}
+
+.menu li:hover .submenu {
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+  color: white;
+}
+#menu {
+  z-index: 1;
+}
+/*imagen*/
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Contenedor del texto de parrafo*/
+.contenedor {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  font-size: 150%;
+  float: center;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+/*parrafo*/
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  margin: 0px;
+  vertical-align: 50%;
+  font-size: 120%;
+}
+/*Clases de titulo */
+
+/*Titulo Destacado*/
+.titulo {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  margin: 1%;
+  font-size: 350%;
+}
+/*Subtitulo*/
+.titulo_p {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  float: left;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+  color: black;
+  font-size: 200%;
+}
+
+.h2 {
+  border: 1px;
+  box-sizing: border-box;
+  padding: 1em;
+  width: 90%;
+  float: center;
+  margin: 2px;
+  object-fit: cover;
+  vertical-align: top;
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+/*titulo de nombres de integrantes*/
+.titulo_integrantes {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
+  font-size: 350%;
+  text-align: center;
+}
+
+.container {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 120%;
+}
+.caja img {
+  width: 100%;
+  height: 200px;
+}
+.caja {
+  margin: 3%;
+  background-color: black;
+  border-radius: 15px;
+  width: 25%;
+  height: auto;
+}
+/**/
+.b {
+  display: block;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  z-index: 1;
+  text-align: center;
+}
+.b:hover {
+  color: rgb(187, 187, 187);
+  transition: all 1s;
+}
+p {
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////
+/*AQUI COMIENZA LAS PARTICIONES RESPONSIVE DE ACUERDO AL ANCHOR DEL DISPOSITIVO*/
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .titulo {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    vertical-align: 50%;
+    font-size: 250%;
+  }
+  .caja {
+    margin: 3%;
+    background-color: black;
+    border-radius: 15px;
+    width: 35%;
+    height: auto;
+  }
+}
