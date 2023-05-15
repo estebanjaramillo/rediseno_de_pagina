@@ -9,6 +9,7 @@ import Recomendaciones from "../Recomendaciones";
 import Catalogo from "../Catalogo";
 import Login from "../Login";
 import Barberos from "../Barberos";
+import Horarios from "../Horarios";
 
 //import dataPsricing from "../dataPricing";
 
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route exact path="/Mision" component={Mision} />
           <Route exact path="/Quienessomos" component={Quienessomos} />
           <Route exact path="/Barberos" component={Barberos} />
+          <Route exact path="/Horarios" component={Horarios} />
         </Switch>
       </BrowserRouter>
     );
