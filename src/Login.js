@@ -2,6 +2,13 @@ import React from "react";
 import "./styles.css";
 
 export default function Login() {
+  state = {
+    from: {
+      username: "",
+      password: ""
+    }
+  };
+
   return (
     <div>
       <br></br>
@@ -10,15 +17,15 @@ export default function Login() {
         <input
           className="controls"
           type="text"
-          name="nombres"
-          id="nombres"
+          name="username"
+          id="username"
           placeholder="Ingrese su Correo"
         />
         <input
           className="controls"
           type="password"
-          name="correo"
-          id="correo"
+          name="password"
+          id="password"
           placeholder="Ingrese su Contraseña"
         />
         <input className="botons" type="submit" value="enviar" />
