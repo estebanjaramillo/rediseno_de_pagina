@@ -169,7 +169,7 @@ h1 {
   width: 25%;
   height: auto;
 }
-/**/
+/*Contenedores de login y registro*/
 .b {
   display: block;
   padding: 15px;
@@ -244,6 +244,19 @@ p {
   color: white;
   margin: 16px 0;
   font-size: 16px;
+}
+
+/*Configuracion de tabla del horario*/
+.table {
+  margin: 16px 0;
+  width: 100%;
+  height: auto;
+  color: black;
+  margin: 16px 0;
+}
+.pickers {
+  width: 300px;
+  text-align: center;
 }
 /*//////////////////////////////////////////////////////////////////////////////////
 /*AQUI COMIENZA LAS PARTICIONES RESPONSIVE DE ACUERDO AL ANCHOR DEL DISPOSITIVO*/

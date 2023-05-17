@@ -62,10 +62,9 @@ export default function Home() {
         desean gestionar y apartar una cita para el servicio de barberia
       </h1>
       <h1 className="contenedor">
-        daremos en sus manos la mejor experiencia para su asignacion cita y
-        definicion de su corte de cabello,te ofrecemos un amplio catalogo donde
-        observaras los cortes y estilos que nuestros profecionales realizaran de
-        la mejor manera y haran relucir tu belleza
+        te ofrecemos un amplio catalogo donde observaras los cortes y estilos
+        que nuestros profecionales realizaran de la mejor manera y haran relucir
+        tu belleza
       </h1>
     </div>
   );

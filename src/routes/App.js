@@ -10,6 +10,7 @@ import Catalogo from "../Catalogo";
 import Login from "../Login";
 import Barberos from "../Barberos";
 import Horarios from "../Horarios";
+import Admin from "../Admin";
 
 //import dataPsricing from "../dataPricing";
 
@@ -27,6 +28,7 @@ class App extends React.Component {
           <Route exact path="/Quienessomos" component={Quienessomos} />
           <Route exact path="/Barberos" component={Barberos} />
           <Route exact path="/Horarios" component={Horarios} />
+          <Route exact path="/Admin" component={Admin} />
         </Switch>
       </BrowserRouter>
     );
