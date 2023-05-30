@@ -38,7 +38,12 @@ export default function Registro() {
         <p>
           Estoy de acuerdo con <a href="/Term_Y_Cond">Terminos y Condiciones</a>
         </p>
-        <input className="botons" type="submit" value="Registrar" />
+        <input
+          className="botons"
+          type="submit"
+          value="Registrar"
+          href="/Login"
+        />
         <p>
           <a href="/Login">¿Ya tengo Cuenta?</a>
         </p>

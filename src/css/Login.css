@@ -39,3 +39,11 @@
 .titulo_Login {
   color: white;
 }
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:visited {
+  color: inherit;
+}

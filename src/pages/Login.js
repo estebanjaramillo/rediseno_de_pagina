@@ -94,6 +94,11 @@ class Login extends Component {
             >
               Iniciar Sesión
             </button>
+            <p>
+              <a className="Titulo-Login" href="/Registro">
+                ¿No tengo Cuenta?
+              </a>
+            </p>
           </div>
         </div>
       </div>
