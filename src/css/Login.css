@@ -3,11 +3,39 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid blue;
+  border: 1px solid Black;
   padding: 40px;
-  background-color: white;
+  background-color: black;
 }
 
+.form-register {
+  width: 400px;
+  background: #000000;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  font-family: "calibri";
+  box-shadow: 7px 13px 37px #000;
+}
 .containerSecundario {
-  text-align: center;
+  width: 100%;
+  background: #000000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+.btn_btn-primary {
+  width: 100%;
+  background: #5a5a5a;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.titulo_Login {
+  color: white;
 }

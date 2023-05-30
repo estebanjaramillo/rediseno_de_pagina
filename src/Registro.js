@@ -36,7 +36,7 @@ export default function Registro() {
           placeholder="Ingrese su Contraseña"
         />
         <p>
-          Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
+          Estoy de acuerdo con <a href="/Term_Y_Cond">Terminos y Condiciones</a>
         </p>
         <input className="botons" type="submit" value="Registrar" />
         <p>

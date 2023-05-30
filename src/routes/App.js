@@ -7,12 +7,12 @@ import Registro from "../Registro";
 import Quienessomos from "../Quienessomos";
 import Recomendaciones from "../Recomendaciones";
 import Catalogo from "../Catalogo";
-import Login1 from "../Login";
 import Barberos from "../Barberos";
 import Horarios from "../Horarios";
 import Admin from "../Admin";
 import Login from "../pages/Login";
 import Menu from "../pages/Menu";
+import Term_Y_Cond from "../pages/Term_Y_Cond";
 
 //import dataPsricing from "../dataPricing";
 
@@ -32,6 +32,7 @@ class App extends React.Component {
           <Route exact path="/Horarios" component={Horarios} />
           <Route exact path="/Admin" component={Admin} />
           <Route exact path="/menu" component={Menu} />
+          <Route exact path="/Term_Y_Cond" component={Term_Y_Cond} />
         </Switch>
       </BrowserRouter>
     );

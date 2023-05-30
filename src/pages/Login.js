@@ -70,7 +70,7 @@ class Login extends Component {
       <div className="containerPrincipal">
         <div className="containerSecundario">
           <div className="form-group">
-            <label>Usuario: </label>
+            <h4>Login</h4>
             <br />
             <input
               type="text"
@@ -79,7 +79,7 @@ class Login extends Component {
               onChange={this.handleChange}
             />
             <br />
-            <label>Contraseña: </label>
+            <label className="titulo_Login">Contraseña: </label>
             <br />
             <input
               type="password"
@@ -89,7 +89,7 @@ class Login extends Component {
             />
             <br />
             <button
-              className="btn btn-primary"
+              className="btn_btn-primary"
               onClick={() => this.iniciarSesion()}
             >
               Iniciar Sesión
