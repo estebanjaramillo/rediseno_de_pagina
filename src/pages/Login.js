@@ -70,7 +70,7 @@ class Login extends Component {
       <div className="containerPrincipal">
         <div className="containerSecundario">
           <div className="form-group">
-            <h4>Login</h4>
+            <h4 className="titulo_Login">Login</h4>
             <br />
             <input
               type="text"

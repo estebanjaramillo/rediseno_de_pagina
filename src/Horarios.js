@@ -2,9 +2,7 @@ import { Button } from "bootstrap";
 import React from "react";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import TimePicker from "react-time-picker";
 import "react-time-picker/dist/TimePicker.css";
 import SeleccionarFechaHora from "./SeleccionarFechaHora";
 
