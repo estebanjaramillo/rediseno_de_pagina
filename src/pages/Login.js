@@ -8,7 +8,7 @@ import Cookies from "universal-cookie";
 const baseUrl = "connect	Sys@//localhost:1521/xe/usuario";
 */
 const baseUrl =
-  "http://localhost/phpmyadmin/index.php?route=/table/structure&db=phpmyadmin&table=pma__users";
+  "connecft sys//localhost/phpmyadmin/index.php?route=/table/structure&db=phpmyadmin&table=pma__users";
 
 const cookies = new Cookies();
 

@@ -9,21 +9,21 @@ export default function Catalogo() {
         <h1 className="titulo">Catalogo</h1>
         <div className="container">
           <div className="caja">
-            <img src="https://lh3.googleusercontent.com/80EcCj-ZpJ1nWN_QJt60m882KBIBvLLvOD_IM-5CmCmTpOOrROAbx1ipSm5CHlDtvu0oEr6II8eXkixgoPwWyJSTu53bccGde3lH6unmZKKeWkgz00H_mhPEyDBKeR6xkAaUwrYi1GCAsGvHR3RErQEDemsXqaaHpCF3M15OkkY2XcBztStGT3PIO4YHJSVaSMVWV9wv0Tlx1E73uNKjyiDw0x-sh9W-iRZmadyYn8Qga9jUE4qrCsHiUJRHo7WtpONVeaQ_md3rqnWN_QCF0ZgqjnIWQoLW4hb7PuF-3xZufh_4r63D9sfly8saaA-jW7G48iqUstm97m-8cV0bfVo9sNJKcbn4iBDzXkU2btknW__wW5Nporv92lREgY05J7gCUIDt8utqB1Z74eSE9P1cVZ-V78xcN2TE2TsunnbKLHOxow056OHGUYNw-1nYTUpdrW060WvFujMXNP1ApOOZUNWGpRhMD5Bpb8sMkeH3CLhPPiYNW8AD6n7qi6Nlu8X14uHvbrOPui6iyOw2Lhyms5b4Meqn6GkXhP3NkKwLWKXjNxVlaDmRyeVNE-7NBvVuFVUCJoNy5TO8cEvroT4HTTyJaDDzirP2D8zXU7McMDZB7cfgGihp7JD8xjTXHBXoRRP0RlhzsI0iaS27UGZe2F1NMiKHX-iU14BBqQVxWu7MAGMvewVUi5nRbkhJJNPKoSjeeapJstoiC3FKzZUZQjJK3W5rjbf65zk_VJISaFy68NNNLQJjnvI8BN_1qOV_2uLQY7B2NdtIapL-kZmAgYIBMvTi43J5ffygzcxMsxvriLVqyFyeZ_ecimx96oDiJxplN5CEMZol00jQoxBfrWMNRhH-qKccfkPiVvDZaOdreav9EdbtRuKFK2pbQs5u0UmXM0ylJt5lPC5nFyc259h7yVTjP-WSjuEx3b4jbQ=w130-h122-s-no?authuser=0" />
+            <img src="https://cortesdepelohombres.com/wp-content/uploads/2021/10/4.-corte-fade-medio-con-tupe.jpg" />
             <a className="b" href="/Barberos">
               FADE
             </a>
             <p>Precio: $20.000</p>
           </div>
           <div className="caja">
-            <img src="https://lh3.googleusercontent.com/NuV9ZFtt9_jvC07RBTMtKlxh1citM_x4uylQrmIGqP18G8gJI6339jy02Y2tnnK9pTF86qCKbMZsFi6S32D0QoNt0OepjtNniriIvvVD-41u3c7fvJKv84RA3_Nnuw_RNyaXV9eqKWOkBAGc2-2B6qaZT3OTfjMFrspKOWWWKp_syGjrQqC28GGPnxCgCao71hXjYhuB1myWeFEyIRu8FxWhSOwqiVyyjRM7JL-af3yvIJDCbbPpVEeqStoXSUyawoMbBAYN68kc-ifKJQ-htZ-7rgqp3xbCGfiVoHuWuwPJwIZhNd6jDJXQ3igBNWW8hUwvngxmsth8CUq1K7INAekkK-x02gjlZJKeasT63MTI2sI_A7D4CnOD_KWadH1K7o6T1ELa1ExG8c6nqBcnuaKEW8_HfhZ6NbtVrxBQLT4eqdF2a7V_8Ss6U7pucbM6G4n1gTPi9g6EnejXCvqmanMKBosMqwnaaQZsxNOmmAwF7V7IHhCoOo-iS4CdmvWdc-b5bL1_gAK556vgR5wzsC76UOK_9P7QLn129UD9DHUtxArsqSjysg45x9ufahfsLzI3oTSZU_WwUkKB8RPHQquV31oIRMDkRvkXoFA58QH_Xje7umfpaV4oyPjZVFB1w1notSR29htSojx19E89B70Jyurk7twhx6ysYQ2uVKmiaI2bYC05uBBK86tvA-OZhonzC-3J8UmA88Xs2OB-gVNFo4BPrgGc3nhNmFHjTV_fNrLfh389n_-NAsH-E4le8o4NqVx6MeKY6e-mbgDmxxdscC4WdNJENrPU3Q_EJ2Pq_0mVlpTtuoxVLHbVXyi6iUXLH5NuqLddMUI234XQRYXVh6iX3Q2Ol-snro-b_3LZVnIEyjiGAwa6A4YnrFoBVByy6e-7CisuBJcKhHmgEXfmB3aRqZk5CtMOzWjo_qyjlg=w210-h240-s-no?authuser=0" />
+            <img src="https://saloon.com.mx/revista_digital/wp-content/uploads/2020/04/corte-militar.png" />
             <a className="b" href="/Barberos">
               MILITAR
             </a>
             <p>Precio: $20.000</p>
           </div>
           <div className="caja ">
-            <img src="https://lh3.googleusercontent.com/VVPr18etsYDLjXVOyoZ9BGvrZwWYs9UlSt3OzksjH9c3u2eluNuNtfyml0IUT8vD7g6l4E4oyBmQbwk_xeVOhMBndgYNY-NJebClnaE55ObhF5XHXmV0UWP5-vyUVeXiscE6HU8axjelF9jzf5_nTe8bSeW2Y5Rl0tOgwocHbj8Dn91-emKOBHu5FfJaK9UbyjqDJmVAK15b4rfg90RcFsJUGgzxtAKCY-mqK-T0S3FYrH2n7UAuZWKHURymCPaGGtQuyhPePtwABWbZbCfnbBqJmevlIkEmQzvOxzYxZurL8gbdh3fuup-ZuyTbbCzUDpxfdhhXEJ5DgaMyqMcWU3aquBpsBuN6eX0s2ipy6IGMaoaRZl-ZVc03vPq3PV3GvuBea6LXAu1heSxb_i6slQLku8177toMWonCUqkAIQnN5TrMBT36xYZtS8TtUZbQTROM0812sZvNoQ_hIvx_aZwZGidpsZ8baaSZnSdr2Xtt1d1rmpTpIqwnENr39URNheNz8H34ZZeCaTb_-U5jpD7Wo8eoV7vDkPmUSvE6AokWgLHPIstPpm7_uRXVTN0QUw-M7s1KEmkXBjeF5dcLqwI2Gw-mO7QeAS8m_e9w6dXP4w-K_YARejj0R7kSvchaHqY7FKzToLO9ZbLeYllLuVThicgnjZ4TJpshFeIzyqIV2ujPc-Z60sL1l3pZfuAYG_fNjpK7NY7hYQB0yAHHOCXMdIDBJ_ilRl2j_luVWO3CUBiZL1o6tcCxqNBL9ouSCOeOemhQrcVFdAtXLir6PKAFTVkgyL5pn3QdaCWHKmXucSXgKQSbF4CjbU9g32LZ5XiieoCQIhcCtf2QfpE0Lt97fHQwrT57Xtkv1PUFROwA56sXgW0f-aSRDnI-HokUmZYRY6sOeSQtYMr9k_hxkzjNc_KDFhcyBHbGtexnkjeoZg=s220-no?authuser=0" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacH3A4u_bde5yEzDIPysQahpjhz1BhiUGLQ&usqp=CAU" />
             <a className="b" href="/Barberos">
               MULLET
             </a>
