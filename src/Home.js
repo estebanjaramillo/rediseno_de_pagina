@@ -43,7 +43,7 @@ export default function Home() {
           </li>
           <li>
             <a className="a" href="/Registro">
-              Registrate
+              Registro
             </a>
           </li>
           <li>
