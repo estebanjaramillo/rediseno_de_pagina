@@ -21,25 +21,17 @@ export default function Quienessomos() {
       </h2>
 
       <h1 className="titulo"> 1. Uso del Servicio</h1>
-      <h2 className="contenedor">
-        {" "}
-        1.1. Nuestro sitio web proporciona una plataforma en línea que permite a
-        los usuarios reservar citas en una barbería.
-      </h2>
+  
       <h2 className="contenedor">
         1.1. Nuestro sitio web proporciona una plataforma en línea que permite a
         los usuarios reservar citas en una barbería.{" "}
       </h2>
       <h2 className="contenedor">
-        {" "}
+        
         1.3. Debes ser mayor de edad o contar con el consentimiento de un adulto
         responsable para utilizar nuestro servicio.
       </h2>
-      <h2 className="contenedor">
-        {" "}
-        1.3. Debes ser mayor de edad o contar con el consentimiento de un adulto
-        responsable para utilizar nuestro servicio.
-      </h2>
+    
       <br></br>
       <h1 className="titulo"> 2. Reservaciones y Cancelaciones </h1>
       <h2 className="contenedor">
