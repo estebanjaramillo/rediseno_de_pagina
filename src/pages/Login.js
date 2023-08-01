@@ -7,7 +7,7 @@ import Cookies from "universal-cookie";
 /*
 const baseUrl = "connect	Sys@//localhost:1521/xe/usuario";
 */
-const baseUrl = "connect @sys//localhost/phpmyadmin/test2/login";
+const baseUrl = "connect Sys@//localhost/phpmyadmin/test2/login";
 
 const cookies = new Cookies();
 
